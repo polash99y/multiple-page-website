@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* nav code start here */
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1244;
+  padding: 0px 200px;
+  border-bottom: 4px solid #401e63;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 10px 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+nav ul li a:hover {
+  background-color: #080808;
+  color: red;
+  border-radius: 5px;
+}
+nav div {
+  color: white;
+  font-size: 20px;
+}
+/* nav code end here */
+
+form{
+  width: 800px;
+  background-color: lightpink;
+  margin: 80px auto;
+  padding: 40px 0px;
+  box-shadow: 10px 10px 10px 10px gray;
+}
+form h2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#name-email-parent input{
+display: block;
+margin:20px auto;
+border: none;
+width: 400px;
+height: 20px;
+padding: 10px 20px;
+font-size: 17px;
+border-radius: 5px;
+}
+form textarea{
+  display: block;
+  margin:30px auto;
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-size: 17px;
+}
+.form-submit-btn{
+  margin: auto;
+  display: block;
+  font-size: 25px;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-image: linear-gradient(to left,#ff0000d8,#008000cf,#0000ffd0);
+  color: white;
+}
